@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="tei_mmda.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="tei_mmda.isosch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Notebook Test File</title>
+            <author>Marianne Moore</author>
+            <respStmt>
+               <persName>Cristanne Miller</persName>
+               <resp>Notebook Editor</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Claire Nashar</persName>
+               <resp>Notebook Editor</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Nikolaus Wasmoen</persName>
+               <resp>Digital Editor</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Claire Nashar</persName>
+               <resp>Project and Program Assistant</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Abhipsa Charkraborty</persName>
+               <resp>Assistant Technical Project Manager</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Girija Polamreddy</persName>
+               <resp>Project Assistant</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Ye Wang</persName>
+               <resp>Project Assistant</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Edward J. Sobczak</persName>
+               <resp>Web Administrator</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Digital Edition Published: October 3, 2022</p>
+            <p>For research purposes only. Do not republish or distribute images or transcriptions
+               from this edition without the permission of the Literary Estate of Marianne Moore.
+               All rights reserved by the Literary Estate of Marianne Moore. Please contact the MMDA
+               Director to inquire about the permissions required for specific materials on the
+               site, or for information about how to contact the Moore Estate.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <note>This notebook file is for testing purposes only.</note>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:space="preserve" xml:id="nb00_00_00.xml" rend="read">
+      <body>
+         <div type="image" xml:id="nb07_00_00_0001_text">
+            <pb facs="nb07_00_00_0001_recto.jpg"/>
+               <desc>Single recto page contained in single div@type="image".</desc>
+               <lg>
+                  <l n="01">This line has 7 spaces before the next period       . It also has six spaces before this next period      .</l>
+                  <l n="02">This line contains <unclear>unclear text</unclear> that should have a gray background.</l>        
+                  <l n="03">This line contains a <del>deletion</del>, which should be rendered as strikethrough.</l>
+                  <l n="04">This line contains an <unclear><del>illegible deletion</del></unclear>, which should be rendered as gray background and strikethrough.</l>
+                  <l n="05">This line contains a single illegible character: <gap extent="1"/>; and five consecutive illegible characters: <gap extent="5"/>. For each illegible character an &#9072; symbol should be inserted.</l>
+                  <l n="06">This line contains <hi rend="bold">bold</hi>, <hi rend="i">italic</hi>, <hi rend="superscript">superscript</hi>, <hi rend="subscript">subscript</hi>, and colored text using basic html color names such as <hi rend="blue">blue</hi> and <hi rend="red">red</hi>. When <hi rend="pencil">pencil</hi> is used, the font color should be gray.</l>
+                  <l n="07">This line contains a standard note<note>This is a standard editorial note. It should appear as a small superscript "n" that can be clicked to open a pop-up window displaying the content of the note.</note></l>
+                  <l n="08">This line contains a glossary note<note target="jennings">This is a glossary note, denoted by the @target value. It should appear as a small superscript "g" that can be clicked to open a pop-up window displaying the content of the note.</note></l>
+                  <l n="09" rend="verse">This line is verse and should have a green genre band.</l>
+                  <l n="10" rend="conv">This line is conv[ersation] and should have a turquoise genre band.</l>
+                  <l n="11" rend="read">This line is read[ing], which is the default value for this notebook, so there should be no orange genre band.</l>
+                  <l n="12" rend="prose">This line is prose and should have a pink genre band.</l>
+                  <l n="13" rend="prose conv">This line contains both prose and conv[ersation] so it should have both pink and turquoise genre bands.</l>      
+                  <l n="14" rend="prose conv">This line contains both prose and conv[ersation] so it should have both pink and turquoise genre bands.</l>
+                  <l n="15" rend="prose conv">This line contains both prose and conv[ersation] so it should have both pink and turquoise genre bands.</l>             
+               </lg>
+            </div>   
+         <div type="image" xml:id="nb07_00_00_0002_text">
+            <pb facs="nb07_00_00_0002_verso.jpg"/>
+               <desc>Whole opening: two pages contained in single div@type="image", verso page.</desc>
+               <lg>
+                  <l n="01">This line has 7 spaces before the next period       . It also has six spaces before this next period      .</l>
+                  <l n="02">This line contains <unclear>unclear text</unclear> that should have a gray background.</l>        
+                  <l n="03">This line contains a <del>deletion</del>, which should be rendered as strikethrough.</l>
+                  <l n="04">This line contains an <unclear><del>illegible deletion</del></unclear>, which should be rendered as gray background and strikethrough.</l>
+                  <l n="05">This line contains a single illegible character: <gap extent="1"/>; and five consecutive illegible characters: <gap extent="5"/>. For each illegible character an &#9072; symbol should be inserted.</l>
+                  <l n="06">This line contains <hi rend="bold">bold</hi>, <hi rend="i">italic</hi>, <hi rend="superscript">superscript</hi>, <hi rend="subscript">subscript</hi>, and colored text using basic html color names such as <hi rend="blue">blue</hi> and <hi rend="red">red</hi>. When <hi rend="pencil">pencil</hi> is used, the font color should be gray.</l>
+                  <l n="07">This line contains a standard note<note>This is a standard editorial note. It should appear as a small superscript "n" that can be clicked to open a pop-up window displaying the content of the note.</note></l>
+                  <l n="08">This line contains a glossary note<note target="jennings">This is a glossary note, denoted by the @target value. It should appear as a small superscript "g" that can be clicked to open a pop-up window displaying the content of the note.</note></l>
+                  <l n="09" rend="verse">This line is verse and should have a green genre band.</l>
+                  <l n="10" rend="conv">This line is conv[ersation] and should have a turquoise genre band.</l>
+                  <l n="11" rend="read">This line is read[ing], which is the default value for this notebook, so there should be no orange genre band.</l>
+                  <l n="12" rend="prose">This line is prose and should have a pink genre band.</l>
+                  <l n="13" rend="prose conv">This line contains both prose and conv[ersation] so it should have both pink and turquoise genre bands.</l>      
+                  <l n="14" rend="prose conv">This line contains both prose and conv[ersation] so it should have both pink and turquoise genre bands.</l>
+                  <l n="15" rend="prose conv">This line contains both prose and conv[ersation] so it should have both pink and turquoise genre bands.</l>             
+               </lg>
+            <pb facs="nb07_00_00_0003_recto.jpg"/>
+               <desc>Whole opening: two pages in single div@type="image", recto page</desc>
+               <lg>
+                  <l n="01">This line has 7 spaces before the next period       . It also has six spaces before this next period      .</l>
+                  <l n="02">This line contains <unclear>unclear text</unclear> that should have a gray background.</l>        
+                  <l n="03">This line contains a <del>deletion</del>, which should be rendered as strikethrough.</l>
+                  <l n="04">This line contains an <unclear><del>illegible deletion</del></unclear>, which should be rendered as gray background and strikethrough.</l>
+                  <l n="05">This line contains a single illegible character: <gap extent="1"/>; and five consecutive illegible characters: <gap extent="5"/>. For each illegible character an &#9072; symbol should be inserted.</l>
+                  <l n="06">This line contains <hi rend="bold">bold</hi>, <hi rend="i">italic</hi>, <hi rend="superscript">superscript</hi>, <hi rend="subscript">subscript</hi>, and colored text using basic html color names such as <hi rend="blue">blue</hi> and <hi rend="red">red</hi>. When <hi rend="pencil">pencil</hi> is used, the font color should be gray.</l>
+                  <l n="07">This line contains a standard note<note>This is a standard editorial note. It should appear as a small superscript "n" that can be clicked to open a pop-up window displaying the content of the note.</note></l>
+                  <l n="08">This line contains a glossary note<note target="jennings">This is a glossary note, denoted by the @target value. It should appear as a small superscript "g" that can be clicked to open a pop-up window displaying the content of the note.</note></l>
+                  <l n="09" rend="verse">This line is verse and should have a green genre band.</l>
+                  <l n="10" rend="conv">This line is conv[ersation] and should have a turquoise genre band.</l>
+                  <l n="11" rend="read">This line is read[ing], which is the default value for this notebook, so there should be no orange genre band.</l>
+                  <l n="12" rend="prose">This line is prose and should have a pink genre band.</l>
+                  <l n="13" rend="prose conv">This line contains both prose and conv[ersation] so it should have both pink and turquoise genre bands.</l>      
+                  <l n="14" rend="prose conv">This line contains both prose and conv[ersation] so it should have both pink and turquoise genre bands.</l>
+                  <l n="15" rend="prose conv">This line contains both prose and conv[ersation] so it should have both pink and turquoise genre bands.</l>             
+               </lg>
+      </div>
+      </body>
+   </text>
+</TEI>
