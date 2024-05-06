@@ -57,7 +57,7 @@
    </teiHeader>
    <text xml:space="preserve" xml:id="nb00_00_00.xml" rend="read">
       <body>
-         <div type="image" xml:id="nb07_00_00_0001_text">
+         <div type="image" xml:id="nb00_00_00_0001_text">
             <pb facs="nb07_00_00_0001_recto.jpg"/>
                <desc>Single recto page contained in single div@type="image".</desc>
                <lg>
@@ -78,7 +78,7 @@
                   <l n="15" rend="prose conv">This line contains both prose and conv[ersation] so it should have both pink and turquoise genre bands.</l>             
                </lg>
             </div>   
-         <div type="image" xml:id="nb07_00_00_0002_text">
+         <div type="image" xml:id="nb00_00_00_0002_text">
             <pb facs="nb07_00_00_0002_verso.jpg"/>
                <desc>Whole opening: two pages contained in single div@type="image", verso page.</desc>
                <lg>
@@ -98,7 +98,7 @@
                   <l n="14" rend="prose conv">This line contains both prose and conv[ersation] so it should have both pink and turquoise genre bands.</l>
                   <l n="15" rend="prose conv">This line contains both prose and conv[ersation] so it should have both pink and turquoise genre bands.</l>             
                </lg>
-            <pb facs="nb07_00_00_0003_recto.jpg"/>
+            <pb facs="nb00_00_00_0003_recto.jpg"/>
                <desc>Whole opening: two pages in single div@type="image", recto page</desc>
                <lg>
                   <l n="01">This line has 7 spaces before the next period       . It also has six spaces before this next period      .</l>
