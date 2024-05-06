@@ -328,7 +328,7 @@ declare variable $config:data-root :=$config:app-root || "/data";
  : The root of the collection hierarchy whose files should be displayed
  : on the entry page. Can be different from $config:data-root.
  :)
-declare variable $config:data-default := $config:data-root;
+declare variable $config:data-default := $config:data-root || "/notebooks";
 
 (:~
  : A sequence of root elements which should be excluded from the list of
@@ -371,7 +371,7 @@ declare variable $config:register-map := map {
 (:~
  : The main ODD to be used by default
  :)
-declare variable $config:default-odd :="docx.odd";
+declare variable $config:default-odd :="moore.odd";
 
 (:~
  : Complete list of ODD files used by the app. If you add another ODD to this list,
