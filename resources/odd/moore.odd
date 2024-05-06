@@ -25,6 +25,11 @@
                 <p>born digital</p>
             </sourceDesc>
         </fileDesc>
+        <encodingDesc>
+            <tagsDecl>
+                <rendition source="moore.css"/>
+            </tagsDecl>
+        </encodingDesc>
         <revisionDesc>
             <change when="2024-05-06+02:00">Initial version</change>
         </revisionDesc>
