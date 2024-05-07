@@ -33,3 +33,30 @@
 .blue {
     color: blue;
 }
+
+.line {
+    display: grid;
+    grid-template-columns: 2em auto;
+    column-gap: 0.5em;
+}
+
+.genre span {
+    display: inline-block;
+    width: 0.5em;
+    height: 100%;
+}
+
+.conv.active {
+    background-color: turquoise;
+}
+
+.verse.active {
+    background-color: green;
+} 
+
+.prose.active {
+    background-color: pink;
+}
+.read.active {
+    background-color: orange;
+}

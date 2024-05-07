@@ -11,7 +11,8 @@
 
     Note: starting with tei-publisher-lib 3.1.0, the module import paths can be relative
     to the modules/ collection.
---><modules>
+-->
+<modules>
     <!-- General latex extension functions -->
     <!--output mode="latex">
         <property name="class">"article"</property>
@@ -26,4 +27,7 @@
     <output mode="tei" odd="docx">
         <module uri="http://www.tei-c.org/tei-simple/xquery/functions/docx" prefix="ext-docx"/>
     </output>
+     <output>
+        <module uri="https://teipublisher.com/apps/marianne-moore/custom" prefix="ext-html" at="xmldb:exist:///db/apps/moore/modules/ext-html.xql"/>
+     </output>
 </modules>

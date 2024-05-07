@@ -105,11 +105,13 @@
         </model>
                 </elementSpec>
                 <elementSpec ident="l" mode="change">
-                    <model predicate="@rend" behaviour="block" useSourceRendition="true">
-            <param name="genres" value="let $defaultGenre := ancestor::text/@rend let $genres := tokenize(@rend, '\s+') return if($genres = $defaultGenre) then string-join(remove($genres, index-of($genres, $defaultGenre)), ' ') else string-join($genres, ' ')"/>
-            <pb:template xmlns="" xml:space="preserve"><span class="genre [[genres]]"/><span>[[content]]</span></pb:template>
+                    <model predicate="@rend" behaviour="block" cssClass="line" useSourceRendition="true">
+            <param name="genres" value="ext-html:display-genres(@rend, $parameters?root/ancestor::text)"/>
+            <param name="content" value="for $x in ./node() return if ($x/name() eq '') then ext-html:replaces-spaces($x) else $x"/>
+            <pb:template xmlns="" xml:space="preserve"><span class="genre">[[genres]]</span><span>[[content]]</span></pb:template>
         </model>
-                    <model behaviour="block">
+                    <model behaviour="block" cssClass="line">
+            <param name="content" value="for $x in ./node() return if ($x/name() eq '') then ext-html:replaces-spaces($x) else $x"/>
             <pb:template xmlns="" xml:space="preserve"><span class="genre"/><span>[[content]]</span></pb:template>
         </model>
                 </elementSpec>
