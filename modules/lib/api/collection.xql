@@ -116,7 +116,7 @@ declare %private function capi:upload($root, $paths, $payloads) {
             if (ends-with($path, ".odd")) then
                 xmldb:store($config:odd-root, xmldb:encode($path), $data)
             else
-                let $collectionPath := $config:data-root || "/" || $root
+                let $collectionPath := if ($root) then $config:data-root || "/" || $root else $config:data-default || "/"
                 return
                     if (xmldb:collection-available($collectionPath)) then
                         if (ends-with($path, ".docx")) then
