@@ -121,7 +121,8 @@
                 </elementSpec>
             <elementSpec ident="bibl" mode="change">
                     <model predicate="parent::listBibl" behaviour="listItem"/>
-                    <model behaviour="omit"/>
+                    <model predicate="@type = ('start', 'end')" behaviour="omit"/>
+                    <model behaviour="inline"/>
                 </elementSpec>
                 <elementSpec ident="quote" mode="change">
                     <model behaviour="omit" useSourceRendition="true">
