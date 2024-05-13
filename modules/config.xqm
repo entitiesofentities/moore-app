@@ -34,7 +34,7 @@ declare namespace tei="http://www.tei-c.org/ns/1.0";
  : In this case, change $config:webcomponents-cdn to point to http://localhost:port 
  : (default: 8000, but check where your server is running).
  :)
-declare variable $config:webcomponents :="2.19.0";
+declare variable $config:webcomponents :="2.22.2";
 
 (:~
  : CDN URL to use for loading webcomponents. Could be changed if you created your
@@ -306,16 +306,16 @@ declare variable $config:app-root :=
  : 3. otherwise determine path from request as in 1a.
  :)
 declare variable $config:context-path :=
-    let $prop := util:system-property("teipublisher.context-path")
-    return
-        if (exists($prop)) then
-            if ($prop = "auto") then
-                request:get-context-path() || substring-after($config:app-root, "/db") 
-            else
-                $prop
-        else if (exists(request:get-header("X-Forwarded-Host")))
-            then ""
-        else
+(:    let $prop := util:system-property("teipublisher.context-path"):)
+(:    return:)
+(:        if (exists($prop)) then:)
+(:            if ($prop = "auto") then:)
+(:                request:get-context-path() || substring-after($config:app-root, "/db") :)
+(:            else:)
+(:                $prop:)
+(:        else if (exists(request:get-header("X-Forwarded-Host"))):)
+(:            then "":)
+(:        else:)
             request:get-context-path() || substring-after($config:app-root, "/db")
 ;
 
