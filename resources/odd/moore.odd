@@ -3,7 +3,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Marianne More Archive</title>
+                <title>Marianne Moore Archive</title>
             </titleStmt>
             <publicationStmt>
                 <publisher>eXistSolutions GmbH</publisher>
@@ -125,14 +125,8 @@
                     <model behaviour="inline"/>
                 </elementSpec>
                 <elementSpec ident="quote" mode="change">
-                    <model behaviour="omit" useSourceRendition="true">
-            <outputRendition xml:space="preserve" scope="before">
-            content: '‘';
-            </outputRendition>
-            <outputRendition xml:space="preserve" scope="after">
-            content: '’';
-            </outputRendition>
-        </model>
+                    <model predicate="@type = ('start', 'end')" behaviour="omit" useSourceRendition="true"/>
+                    <model behaviour="inline"/>
                 </elementSpec>
                 <elementSpec ident="lg" mode="change">
                     <model predicate="@type eq 'sideways'" behaviour="block">
