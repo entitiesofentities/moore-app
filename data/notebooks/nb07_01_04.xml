@@ -5,7 +5,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Notebook VII.01.04</title>
+            <title>Notebook 07.01.04</title>
+            <title type="rosenbach">Notebook VII.01.04</title>
             <author>Marianne Moore</author>
             <respStmt>
                <persName>Cristanne Miller</persName>
@@ -266,7 +267,7 @@
                   <l n="01"><quote type="begin"/>(Western Himalayas) late 18th c. under Raja Samsara Cand<quote type="end"/><note>Coomaraswamy, Ananda K. "Indian Art in Boston" (see earlier note).<hi rend="underline"/></note></l>
                   <l n="02">                                                                                                   4</l>
                   <l n="03"> <bibl rend="begin"/>Georgian Poetry  5th series Ed. E. M. Poetry  Bkshop London   6s</l>
-                  <l n="04">Rev. by Mrs. Williams-Ellis<bibl rend="end"/><note target="williamsellis">Williams-Ellis, Amabel [1894-1984]. British author, editor, translator, and commentator on politics, culture, and women's lives, best known for editing several volumes of fairy tales and legends; literary editor of the <hi rend="italic">Spectator</hi> 1922-1923.</note><note><hi rend="underline">Georgian Poetry 1920-1922</hi>. Ed. Edward Marsh (Devonshire London: The Poetry Bookshop, 1922). Rev. by Amabel Williams-Ellis, <hi rend="underline">The Spectator</hi> December 1922.</note></l>
+                  <l n="04">Rev. by Mrs. Williams-Ellis<bibl rend="end"/><note target="williamsellis">Williams-Ellis, Amabel [1894-1984]. British author, editor, translator, and commentator on politics, culture, and women's lives, best known for editing several volumes of fairy tales and legends; literary editor of the <hi rend="italic">Spectator</hi> 1922-1923.</note><note><title>Georgian Poetry 1920-1922</title>. Ed. Edward Marsh (Devonshire London: The Poetry Bookshop, 1922). Rev. by Amabel Williams-Ellis, <title>The Spectator</title> December 1922.</note></l>
                   <l n="05">       Peter Quennell&#8211;see Public School Verse about 2 yrs ago</l>
                   <l n="06">  a poem about a sunflower begins                   Masques &amp; Poems</l>
                   <l n="07" rend="verse">               <quote type="begin"/>"See I have bent thee by thy saffron hair    Golden Cockerel<note>MM quotes Sir Peter Courtney Quennell's "A Man to a Sunflower," published in <hi rend="underline">Masques and Poems</hi> (Golden Cockerel Press, 1922).</note></l>
@@ -310,7 +311,7 @@
          <div type="image" xml:id="nb07_01_04_0013_text">
             <pb facs="nb07_01_04_0013_recto.jpg"/>
                <lg>
-                  <l n="01"> <quote type="begin"/>She hit him again &amp; again   EXIT Edward. Not long<note target="bensonStella">Benson, Stella. <hi rend="underline">The Poor Man</hi>. Rev. by Will Cuppy (see earlier note)<hi rend="underline"/>.</note></l>
+                  <l n="01"> <quote type="begin"/>She hit him again &amp; again   EXIT Edward. Not long<note target="bensonStella">Benson, Stella. <title>The Poor Man</title>. Rev. by Will Cuppy (see earlier note).</note></l>
                   <l n="02"> enough if you ask me.<quote type="end"/>                                                     5</l>
                   <l n="03">                                            2<del><gap extent="2"/></del>nd trip</l>
                   <l n="04">   Chinese paintings&#8211;Met. Museum Apr 7 1923<note>MM visited the Metropolitan Museum of Art Exhibition on Chinese Art in both March and April 1923.</note></l>
@@ -661,9 +662,6 @@
          <!-- NW: needs to be rezoned starting from line 9 (blank line) to the end, vertical line should all be in one text zone. -->
          <div type="image" xml:id="nb07_01_04_0028_text">
             <pb facs="nb07_01_04_0028_verso.jpg"/>
-               <lg type="sideways">
-                  <l n="v01"><!-- desc: Left margin, lines 16-02, in 2 rows of script --> <quote type="begin"/>He darted out his tongue &amp; took a little / sip<quote type="end"/></l>
-               </lg>
                <lg>
                   <l n="01"> <note>Němcová, Božena. The Disobedient Kids (see earlier note).</note><quote type="begin"/>The frog &amp; Belinka.     See here she said gently</l>
                   <l n="02"> tapping him on the head&#8211; Must you eat the milk only</l>
@@ -681,6 +679,9 @@
                   <l n="14">   from Hegel", which however must be so</l>
                   <l n="15">   interpreted as to admit of H's still remaining</l>
                   <l n="16">   first &amp; last in their mental sphere<quote type="end"/></l>
+               </lg>
+               <lg type="vertical">
+                  <l n="v01"><!-- desc: Left margin, lines 16-02, in 2 rows of script --> <quote type="begin"/>He darted out his tongue &amp; took a little / sip<quote type="end"/></l>
                </lg>
             </div>
          <!-- NW: line 2 needs to be rezoned -->
@@ -1003,10 +1004,6 @@
                 whole passage as indicated in the l@n=v01 element -->
          <div type="image" xml:id="nb07_01_04_0043_text">
             <pb facs="nb07_01_04_0043_recto.jpg"/>
-               <lg type="sideways">
-                  <l n="v01"><!-- desc: left margin, lines 18-01, in 2 rows of script --> He could shoot the old pill down to</l>
-                  <l n="v02">2nd like a bullet from a rifle barrel<quote type="end"/></l>
-               </lg>
                <lg>
                   <l n="01">  <note>"To Fellow-Fans" (see earlier note).</note><quote type="begin"/>from somewhere in Mass. about as follows:</l>
                   <l n="02">                                                                                  20</l>
@@ -1026,6 +1023,9 @@
                   <l n="16">   The fan  was covered w scars of many patterns</l>
                   <l n="17"> *    what he loves is all through a close Score &amp;</l>
                   <l n="18">    a chance for either side to win until the 9th</l>
+               </lg>
+               <lg type="vertical">
+                  <l n="v01"><!-- desc: left margin, lines 18-01, in 2 rows of script --> He could shoot the old pill down to / 2nd like a bullet from a rifle barrel<quote type="end"/></l>
                </lg>
             </div>
          <div type="image" xml:id="nb07_01_04_0044_text">
@@ -1408,9 +1408,6 @@
          <!-- NW: page 61 should be rezoned, boxes don't quite match up and parts of some lines missing -->
          <div type="image" xml:id="nb07_01_04_0061_text">
             <pb facs="nb07_01_04_0061_recto.jpg"/>
-               <lg type="sideways">
-                  <l n="v01"><!--desc: left margin, lines 15-09-->BACON</l>
-               </lg>
                <lg>
                   <l n="01">    <note>Gregory, Alyse. "The Dilemma of Marriage" (see earlier note).</note>  <quote type="begin"/>a new kind of mystical subjugation. . . Man may       29</l>
                   <l n="02">    enter or escape the enchanged circle of sex, woman</l>
@@ -1434,6 +1431,9 @@
                   <l n="20">      disputation, confutations, and verbosities, the<quote type="end"/></l>
                   <l n="21"> </l>
                   <l n="22">   <!--  rendition="MM brackets last 3 words of line 13 with short vertical and long horizontal line" --></l>
+               </lg>
+               <lg type="vertical">
+                  <l n="v01"><!--desc: left margin, lines 15-09-->BACON</l>
                </lg>
             </div>
          <!-- NW: Finished 3rd round of spacing/zoning proofing here, sent above affected pages to Girija for re-zoning, 2022-08-07 9:08pm. -->
@@ -1594,7 +1594,7 @@
          <div type="image" xml:id="nb07_01_04_0069_text">
             <pb facs="nb07_01_04_0069_recto.jpg"/>
                <lg>
-                  <l n="01">   Harvard Classics v. 27   7.   Defense of Poesy    33<note><hi rend="italic">English Essays: From Sir Philip Sidney to Macauley</hi>. Ed. Charles W. Eliot, LL.D. Harvard Classics Vol. 27. NY: P. F. Collier &amp; Son, 1910.</note></l>
+                  <l n="01">   Harvard Classics v. 27   7.   Defense of Poesy    33<note><title>English Essays: From Sir Philip Sidney to Macauley</title>. Ed. Charles W. Eliot, LL.D. Harvard Classics Vol. 27. NY: P. F. Collier &amp; Son, 1910.</note></l>
                   <l n="02">                                                   Sir P Sidney <note target="sidney">Sidney, Sir Philip [1554-1586]. English poet, courtier, and soldier. MM refers to him periodically throughout her life, including in "No better than "a withered daffodil" (first published <hi rend="italic">Art News</hi>, March 1959).</note></l>
                   <l n="03">  (Edward Wotton)<note>Baron Edward Wotton appears in Sir Philip Sidney's "The Defense of Poesy." English diplomat and administrator, and friend of Sidney's.</note> . . . <quote type="begin"/>He said Soldiers were the noblest</l>
                   <l n="04">  estate of mankind,, and horsemen <hi rendition="shorthand the">the</hi> noblest of soldiers</l>
@@ -1638,9 +1638,7 @@
                   <l n="18">  skin as it were &amp; beauty depended most of poetry<quote type="end"/></l>
                </lg>
                <lg type="vertical">
-                  <l n="v01"><!-- desc: right margin, lines 18-02, in three rows of print--> to draw <del>forth</del> w their charming sweetness</l>
-                  <l n="v02">           the wild untamed wits to  an</l>
-                  <l n="v03">           admiration of knowledge</l>
+                  <l n="v01"><!-- desc: right margin, lines 18-02, in three rows of print--> to draw <del>forth</del> w their charming sweetness / the wild untamed wits to  an / admiration of knowledge</l>
                </lg>
             </div>
          <div type="image" xml:id="nb07_01_04_0071_text">
@@ -1831,11 +1829,6 @@
          <!-- NW: rezone lines 2, 5, 19 & v01 -->
          <div type="image" xml:id="nb07_01_04_0079_text">
             <pb facs="nb07_01_04_0079_recto.jpg"/>
-               <lg type="sideways">
-                  <l n="v01"><!-- desc: left margin, lines 18-01, in three rows of print --> 113  all desires, so long as they  spring fr</l>
-                  <l n="v02">imperfect knowl., are passions; rightly looked upon,</l>
-                  <l n="v03">they blossom into actions</l>
-               </lg>
                <lg>
                   <l n="01">   <note>Feuchtersleben, Ernst von. <hi rend="italic">Health and Suggestion</hi> (see earlier note).</note><quote type="begin"/>my soul"  What of the man who bores himself?</l>
                   <l n="02">                                                     38</l>
@@ -1856,6 +1849,9 @@
                   <l n="17">       not silence but harmony, not indifference but calm</l>
                   <l n="18"/>
                   <l n="19">   141  There are 3 . . . predispositions to hypochondria . . . <quote type="end"/><!--  rend="MM draws parentheses around 2 words in the left-hand margin, line  09, perhaps to mark that 1 belongs to the vertical line and 1 to her horizontal note-taking. " --></l>
+               </lg>
+               <lg type="vertical">
+                  <l n="v01"><!-- desc: left margin, lines 18-01, in three rows of print --> 113  all desires, so long as they  spring fr / imperfect knowl., are passions; rightly looked upon, / they blossom into actions</l>
                </lg>
             </div>
          <div type="image" xml:id="nb07_01_04_0080_text">
@@ -2081,7 +2077,7 @@
                   <l n="16">     knavish practizes, as his skin can holde. He</l>
                   <l n="17">     often telleth me, he loveth me as himself,<quote type="end"/></l>
                </lg>
-               <lg type="sideways">
+               <lg type="vertical">
                   <l n="v01"><!-- desc: left margin, lines 15-05 --> Gabriell Harvey</l>
                </lg>
             </div>
@@ -2134,7 +2130,7 @@
          <div type="image" xml:id="nb07_01_04_0092_text">
             <pb facs="nb07_01_04_0092_verso.jpg"/>
                <lg>
-                  <l n="01">   <bibl rend="b"/>N Y  Times Nov 18.  1923<note><hi rend="italic">New York Times</hi> (18 November 1923). 31 October 1923, there was a brief notice that the cavern had been made a national monument.</note>               Gothic arch&#8211;</l>
+                  <l n="01">   <bibl rend="b"/>N Y  Times Nov 18.  1923<note><title>New York Times</title> (18 November 1923). 31 October 1923, there was a brief notice that the cavern had been made a national monument.</note>               Gothic arch&#8211;</l>
                   <l n="02">   Carlsbad Cave<note>MM apparently considered writing a poem on Carlsbad Caverns. See miscellaneous notebook (1929-1940) 07.03.11, image 37 verso.</note>. N. Mexico.   <bibl rend="end"/><quote type="begin"/>A vaulted room in</l>
                   <l n="03"><hi rend="shorthand_the">the</hi> cave in the middle of which rises a dark pillar, w all</l>
                   <l n="04">   around it pendants of Sparkling white.</l>
@@ -2170,7 +2166,7 @@
                   <l n="15">    8 arms long tapering cones all joined</l>
                   <l n="16">    at their bases to form a crown around <hi rend="shorthand_the">the</hi> mouth<quote type="end"/></l>
                </lg>
-               <lg type="sideways">
+               <lg type="vertical">
                   <l n="v01"><!-- desc: left margin, lines 14-02 --> Dr Francis Ward 1-28</l>
                </lg>
             </div>
@@ -2661,7 +2657,7 @@
                   <l n="01">    <note>Ad for Lotus and Delta Shoes (see earlier note).</note><quote type="begin"/>For all men &amp; most occasions <quote type="end"/>              56</l>
                   <l n="02">                          drawings by</l>
                   <l n="03">  <bibl rend="begin"/>Nursery  Rhymes:   Leslie  Brooke</l>
-                  <l n="04">    F.  Warne  &amp; Co.  London<bibl rend="end"/>.<note><hi rend="italic">Nursery Rhymes With Drawings by Leslie Brooke</hi>. London: Frederick Warne &amp; Co., 1916.</note></l>
+                  <l n="04">    F.  Warne  &amp; Co.  London<bibl rend="end"/>.<note><title>Nursery Rhymes With Drawings by Leslie Brooke</title>. London: Frederick Warne &amp; Co., 1916.</note></l>
                   <l n="05"> </l>
                   <l n="06" rend="verse">  <quote type="begin"/>There was a frog lived in a well</l>
                   <l n="07" rend="verse">       Kitty alone, Kitty alone;</l>
@@ -2683,7 +2679,7 @@
          <div type="image" xml:id="nb07_01_04_0116_text">
             <pb facs="nb07_01_04_0116_verso.jpg"/>
                <lg>
-                  <l n="01" rend="verse">     <note><hi rend="italic">Nursery Rhymes With Drawings by Leslie Brooke</hi> (see earlier note).</note><quote type="begin"/>He rode till he came to my Lady Mouse hall</l>
+                  <l n="01" rend="verse">     <note><title>Nursery Rhymes With Drawings by Leslie Brooke</title> (see earlier note).</note><quote type="begin"/>He rode till he came to my Lady Mouse hall</l>
                   <l n="02" rend="verse">           Kitty alone,  :</l>
                   <l n="03" rend="verse">    "   "          "      "    "   "           "    "</l>
                   <l n="04" rend="verse">    and there he did both knock &amp; call;</l>
@@ -2706,7 +2702,7 @@
          <div type="image" xml:id="nb07_01_04_0117_text">
             <pb facs="nb07_01_04_0117_recto.jpg"/>
                <lg>
-                  <l n="01" rend="verse"> <note><hi rend="italic">Nursery Rhymes With Drawings by Leslie Brooke</hi> (see earlier note).</note><quote type="begin"/>The frog he came whistling through the brook     57</l>
+                  <l n="01" rend="verse"> <note><title>Nursery Rhymes With Drawings by Leslie Brooke</title> (see earlier note).</note><quote type="begin"/>The frog he came whistling through the brook     57</l>
                   <l n="02" rend="verse">   .  . .     "</l>
                   <l n="03" rend="verse">     And there he met with a dainty duck</l>
                   <l n="04" rend="verse">       . . .</l>
@@ -2966,13 +2962,12 @@
                   <l n="01">[No handwriting on this page.]</l>
                </lg>
             </div>
-      <!-- Note: this image was not provided:
-        <div type="image" xml:id="nb07_01_04_0130_text">
+         <div type="image" xml:id="nb07_01_04_0130_text">
             <pb facs="nb07_01_04_0130_recto.jpg"/>
                <lg>
                   <l n="01">[No handwriting on this page.]</l>
                </lg>
-            </div> -->
+            </div>
       </body>
    </text>
 </TEI>
