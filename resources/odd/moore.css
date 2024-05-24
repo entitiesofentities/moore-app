@@ -4,7 +4,11 @@
     background-color: #D8D8D8;
 }
 
-.i {
+.underline {
+    text-decoration: underline;
+}
+
+.i, .italics, .italic {
     font-style: italic;
 }
 
@@ -34,10 +38,21 @@
     color: blue;
 }
 
+/* glossary note label */
+a.tei-note1 {
+    background-color: #FFFF99;
+}
+
+/* editorial note label */
+a.tei-note2 {
+    background-color: #CCFFFF;
+}
+
 .line {
     display: grid;
     grid-template-columns: 2em auto;
     column-gap: 0.5em;
+    margin-bottom: -0.2em;
 }
 
 .genre span {
