@@ -39,6 +39,9 @@
     <text>
         <body>
             <schemaSpec start="TEI teiCorpus" ident="moore" source="teipublisher.odd"> <elementSpec ident="pb" mode="change">
+                    <model predicate="$parameters?mode='toc'" behaviour="inline">
+            <param name="content" value="ext-html:page-number(.)"/>
+        </model>
                     <model predicate="$parameters?mode='title'" behaviour="heading">
             <param name="content" value="ext-html:breadcrumbs(.)"/>
             <param name="level" value="5"/>
@@ -214,10 +217,6 @@
             <param name="content" value="."/>
         </model>
                     <model output="fo" behaviour="heading"/>
-                    <model predicate="$parameters?mode='title'" behaviour="heading">
-            <param name="content" value="title[not(@type)]"/>
-            <param name="level" value="5"/>
-        </model>
                     <modelSequence output="web" predicate="$parameters?header='short'">
             <model behaviour="link">
                 <param name="content" value="title[1]"/>
