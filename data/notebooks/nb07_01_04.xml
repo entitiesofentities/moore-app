@@ -662,6 +662,9 @@
          <!-- NW: needs to be rezoned starting from line 9 (blank line) to the end, vertical line should all be in one text zone. -->
          <div type="image" xml:id="nb07_01_04_0028_text">
             <pb facs="nb07_01_04_0028_verso.jpg"/>
+               <lg type="sideways">
+                  <l n="v01"><!-- desc: Left margin, lines 16-02, in 2 rows of script --> <quote type="begin"/>He darted out his tongue &amp; took a little / sip<quote type="end"/></l>
+               </lg>
                <lg>
                   <l n="01"> <note>Němcová, Božena. The Disobedient Kids (see earlier note).</note><quote type="begin"/>The frog &amp; Belinka.     See here she said gently</l>
                   <l n="02"> tapping him on the head&#8211; Must you eat the milk only</l>
@@ -679,9 +682,6 @@
                   <l n="14">   from Hegel", which however must be so</l>
                   <l n="15">   interpreted as to admit of H's still remaining</l>
                   <l n="16">   first &amp; last in their mental sphere<quote type="end"/></l>
-               </lg>
-               <lg type="vertical">
-                  <l n="v01"><!-- desc: Left margin, lines 16-02, in 2 rows of script --> <quote type="begin"/>He darted out his tongue &amp; took a little / sip<quote type="end"/></l>
                </lg>
             </div>
          <!-- NW: line 2 needs to be rezoned -->
@@ -1004,6 +1004,10 @@
                 whole passage as indicated in the l@n=v01 element -->
          <div type="image" xml:id="nb07_01_04_0043_text">
             <pb facs="nb07_01_04_0043_recto.jpg"/>
+               <lg type="sideways">
+                  <l n="v01"><!-- desc: left margin, lines 18-01, in 2 rows of script --> He could shoot the old pill down to</l>
+                  <l>2nd like a bullet from a rifle barrel<quote type="end"/></l>
+               </lg>
                <lg>
                   <l n="01">  <note>"To Fellow-Fans" (see earlier note).</note><quote type="begin"/>from somewhere in Mass. about as follows:</l>
                   <l n="02">                                                                                  20</l>
@@ -1023,9 +1027,6 @@
                   <l n="16">   The fan  was covered w scars of many patterns</l>
                   <l n="17"> *    what he loves is all through a close Score &amp;</l>
                   <l n="18">    a chance for either side to win until the 9th</l>
-               </lg>
-               <lg type="vertical">
-                  <l n="v01"><!-- desc: left margin, lines 18-01, in 2 rows of script --> He could shoot the old pill down to / 2nd like a bullet from a rifle barrel<quote type="end"/></l>
                </lg>
             </div>
          <div type="image" xml:id="nb07_01_04_0044_text">
@@ -1408,6 +1409,9 @@
          <!-- NW: page 61 should be rezoned, boxes don't quite match up and parts of some lines missing -->
          <div type="image" xml:id="nb07_01_04_0061_text">
             <pb facs="nb07_01_04_0061_recto.jpg"/>
+               <lg type="sideways">
+                  <l n="v01"><!--desc: left margin, lines 15-09-->BACON</l>
+               </lg>
                <lg>
                   <l n="01">    <note>Gregory, Alyse. "The Dilemma of Marriage" (see earlier note).</note>  <quote type="begin"/>a new kind of mystical subjugation. . . Man may       29</l>
                   <l n="02">    enter or escape the enchanged circle of sex, woman</l>
@@ -1431,9 +1435,6 @@
                   <l n="20">      disputation, confutations, and verbosities, the<quote type="end"/></l>
                   <l n="21"> </l>
                   <l n="22">   <!--  rendition="MM brackets last 3 words of line 13 with short vertical and long horizontal line" --></l>
-               </lg>
-               <lg type="vertical">
-                  <l n="v01"><!--desc: left margin, lines 15-09-->BACON</l>
                </lg>
             </div>
          <!-- NW: Finished 3rd round of spacing/zoning proofing here, sent above affected pages to Girija for re-zoning, 2022-08-07 9:08pm. -->
@@ -1638,7 +1639,9 @@
                   <l n="18">  skin as it were &amp; beauty depended most of poetry<quote type="end"/></l>
                </lg>
                <lg type="vertical">
-                  <l n="v01"><!-- desc: right margin, lines 18-02, in three rows of print--> to draw <del>forth</del> w their charming sweetness / the wild untamed wits to  an / admiration of knowledge</l>
+                  <l n="v01"><!-- desc: right margin, lines 18-02, in three rows of print--> to draw <del>forth</del> w their charming sweetness</l>
+                  <l n="v02"> the wild untamed wits to  an</l>
+                  <l n="v03">admiration of knowledge</l>
                </lg>
             </div>
          <div type="image" xml:id="nb07_01_04_0071_text">
@@ -1829,6 +1832,11 @@
          <!-- NW: rezone lines 2, 5, 19 & v01 -->
          <div type="image" xml:id="nb07_01_04_0079_text">
             <pb facs="nb07_01_04_0079_recto.jpg"/>
+               <lg type="sideways">
+                  <l n="v01"><!-- desc: left margin, lines 18-01, in three rows of print --> 113  all desires, so long as they  spring fr</l>
+                  <l>imperfect knowl., are passions; rightly looked upon,</l>
+                  <l>they blossom into actions</l>
+               </lg>
                <lg>
                   <l n="01">   <note>Feuchtersleben, Ernst von. <hi rend="italic">Health and Suggestion</hi> (see earlier note).</note><quote type="begin"/>my soul"  What of the man who bores himself?</l>
                   <l n="02">                                                     38</l>
@@ -1849,9 +1857,6 @@
                   <l n="17">       not silence but harmony, not indifference but calm</l>
                   <l n="18"/>
                   <l n="19">   141  There are 3 . . . predispositions to hypochondria . . . <quote type="end"/><!--  rend="MM draws parentheses around 2 words in the left-hand margin, line  09, perhaps to mark that 1 belongs to the vertical line and 1 to her horizontal note-taking. " --></l>
-               </lg>
-               <lg type="vertical">
-                  <l n="v01"><!-- desc: left margin, lines 18-01, in three rows of print --> 113  all desires, so long as they  spring fr / imperfect knowl., are passions; rightly looked upon, / they blossom into actions</l>
                </lg>
             </div>
          <div type="image" xml:id="nb07_01_04_0080_text">
@@ -2058,6 +2063,9 @@
             </div>
          <div type="image" xml:id="nb07_01_04_0089_text">
             <pb facs="nb07_01_04_0089_recto.jpg"/>
+               <lg type="sideways">
+                  <l n="v01"><!-- desc: left margin, lines 15-05 --> Gabriell Harvey</l>
+               </lg>
                <lg>
                   <l n="01">  <note>Spenser, Edmund. <hi rend="italic">The Poetical Works of Spenser</hi> (see earlier note).</note> <quote type="begin"/>Master H's short but sharpe, &amp; learned              43</l>
                   <l n="02">   judgement of Earthquakes.   616.  I cld wishe</l>
@@ -2076,9 +2084,6 @@
                   <l n="15">     toyes to mocke Apes withal odde shiftes, &amp;</l>
                   <l n="16">     knavish practizes, as his skin can holde. He</l>
                   <l n="17">     often telleth me, he loveth me as himself,<quote type="end"/></l>
-               </lg>
-               <lg type="vertical">
-                  <l n="v01"><!-- desc: left margin, lines 15-05 --> Gabriell Harvey</l>
                </lg>
             </div>
          <div type="image" xml:id="nb07_01_04_0090_text">
@@ -2148,6 +2153,9 @@
          <!-- Nick: rezone lines 1 (missing "45" at end) -->
          <div type="image" xml:id="nb07_01_04_0093_text">
             <pb facs="nb07_01_04_0093_recto.jpg"/>
+               <lg type="sideways">
+                  <l n="v01"><!-- desc: left margin, lines 14-02 --> Dr Francis Ward 1-28</l>
+               </lg>
                <lg>
                   <l n="01">    <bibl rend="begin"/>Ill London News  Aug 11 1923<note>"A Summer 'Seaside' Visitor to be Avoided." Photographs by Dr. Francis Ward. <hi rend="italic">Illustrated London News</hi>, 11 September 1923: 21.</note><bibl rend="end"/>                   45<note>MM takes notes toward drafting "An Octopus," first published <hi rend="italic">Dial</hi> December 1924. Her Notes to the poem refer to this article and claim to quote from Ward.</note></l>
                   <l n="02">     <quote type="begin"/>Finish of a swim&#8211;out of breath&#8211;</l>
@@ -2165,9 +2173,6 @@
                   <l n="14">    but this is not so.   The animal is facing right.</l>
                   <l n="15">    8 arms long tapering cones all joined</l>
                   <l n="16">    at their bases to form a crown around <hi rend="shorthand_the">the</hi> mouth<quote type="end"/></l>
-               </lg>
-               <lg type="vertical">
-                  <l n="v01"><!-- desc: left margin, lines 14-02 --> Dr Francis Ward 1-28</l>
                </lg>
             </div>
          <div type="image" xml:id="nb07_01_04_0094_text">
@@ -2962,12 +2967,13 @@
                   <l n="01">[No handwriting on this page.]</l>
                </lg>
             </div>
-         <div type="image" xml:id="nb07_01_04_0130_text">
+       <!-- THIS IMAGE WAS NOT PROVIDED 
+           <div type="image" xml:id="nb07_01_04_0130_text">
             <pb facs="nb07_01_04_0130_recto.jpg"/>
                <lg>
                   <l n="01">[No handwriting on this page.]</l>
                </lg>
-            </div>
+            </div> -->
       </body>
    </text>
 </TEI>
