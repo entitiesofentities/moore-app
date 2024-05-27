@@ -19,3 +19,11 @@ declare function pmf:display-genres($rend as xs:string, $text) {
 declare function pmf:replaces-spaces($text as text()) {
     replace($text, ' ', ' ')
     };
+
+declare function pmf:breadcrumbs($pb as element()) {
+    let $tokens := tokenize($pb/@facs, '_')
+    let $title := replace($tokens[1], 'nb', 'Notebook ') || '.' || $tokens[2] || '.' || $tokens[3]
+    let $page := $tokens[4] => number() => format-number('0')
+    let $side := substring($tokens[5], 1, 1)
+    return $title || ', p. ' || $page || $side
+    };
