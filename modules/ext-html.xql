@@ -23,7 +23,14 @@ declare function pmf:replaces-spaces($text as text()) {
 declare function pmf:breadcrumbs($pb as element()) {
     let $tokens := tokenize($pb/@facs, '_')
     let $title := replace($tokens[1], 'nb', 'Notebook ') || '.' || $tokens[2] || '.' || $tokens[3]
+    let $pageNumber := pmf:page-number($pb)
+    return $title || ', ' || $pageNumber
+    };
+    
+declare function pmf:page-number($pb as element()) {
+    let $tokens := tokenize($pb/@facs, '_')
     let $page := $tokens[4] => number() => format-number('0')
     let $side := substring($tokens[5], 1, 1)
-    return $title || ', p. ' || $page || $side
+    return 
+        'p. ' || $page || $side
     };

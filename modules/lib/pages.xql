@@ -219,7 +219,7 @@ declare function pages:toc-div($node, $model as map(*), $target as xs:string?,
     let $divs := nav:get-subsections($model?config, $node)
     return
         <ul>
-        {
+        {   if (count($divs) gt 0) then
             for $div in $divs
             let $headings := nav:get-section-heading($model?config, $div)/node()
             let $html :=
@@ -268,6 +268,13 @@ declare function pages:toc-div($node, $model as map(*), $target as xs:string?,
                             <pb-link node-id="{$nodeId}" emit="{$target}" subscribe="{$target}">{$subsect, $html}</pb-link>
                     }
                     </li>
+                    else 
+                        let $pbs := $node/descendant::tei:pb
+                        for $pb in $pbs
+                        let $nodeId :=  util:node-id($pb)
+                        let $html := $pm-config:web-transform($pb, map { "mode": "toc", "root": $pb }, $model?config?odd)
+                        return 
+                        <li><pb-link node-id="{$nodeId}" emit="{$target}" subscribe="{$target}">{$html}</pb-link></li>
         }
         </ul>
 };
