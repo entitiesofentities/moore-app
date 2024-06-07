@@ -41,11 +41,11 @@ Through the interface:
 
 1. Log in with an user that belongs to the `tei` group (e.g. the already existing `moore` user): 
 
-![Login screenshot](login.png)
+![Login screenshot](docs/login.png)
 
 2. Upload the file using the Upload dialog:
 
-![Upload screenshot](upload.png)
+![Upload screenshot](docs/upload.png)
 
 3. To upload the facsimiles, go to eXide (e.g. http://localhost:8080/exist/apps/eXide/index.html) and click on `File > Manage` (make sure to be logged in with a user that belongs to the `tei` group). There, upload the images to `apps/moore/resources/images/notebooks`
 
@@ -90,4 +90,4 @@ Images are stored in `resources/images`. The facsimiles are here in the subfolde
 
 ### Internationalization
 
-If the app is only going to offer English, the language selector should be taken out from the menu. If, however, more languages want to be added, you need to add a json file for each language in `resources/i18n/app`. The element to use in the HTML files to display its contents in different languages is [`pb-i18n`](https://unpkg.com/@teipublisher/pb-components@2.23.2/dist/api.html#pb-i18n.0)
+If the app is only going to be offered in English, the language selector should be taken out from the menu. If, however, more languages are to be added, we need to have a JSON file for each language in `resources/i18n/app`. The element to use in the HTML files to display its contents in different languages is [`pb-i18n`](https://unpkg.com/@teipublisher/pb-components@2.23.2/dist/api.html#pb-i18n.0)
