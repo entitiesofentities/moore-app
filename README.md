@@ -21,11 +21,25 @@ To install it, follow the instructions [below](#installation).
 
 ## Installation 
 
-1.  Open the Dashboard of your eXist-db instance and click on `package manager`.
+1.  Open the Dashboard of your eXist-db instance, log in as `admin` and click on `package manager`. For more information about logging in see below “Manage eXist-db users”.
 
 2. Click on the `add package` symbol in the upper left corner and select the `.xar` files you created in the instructions [Building from source](#building-from-source).
 
 3. Open the web application.
+
+### Manage eXist-db users
+
+See the [eXist-db documentation](https://exist-db.org/exist/apps/doc/security) for more information on different ways to set up the admin password and manage users. We explain here how to add a password for the `moore` user:
+
+1.  Open the Dashboard of your eXist-db instance and go log in as user `admin` with an empty password if you are in any of the docker containers configured by us (either the one in this repo or the TEI Publisher one). If the log in fails (you still see the Login button in the upper right corner), then enter the application eXide, and log in from there.
+
+2. If you are correctly logged in as admin, you are going to see in the left side a panel with different options: click on “User Manager”.
+
+3. Click on the user account that you wish to edit and type its password twice. Confirm by clicking *save*. The user *moore* would have been created by default if you have already installed the Moore app.
+
+![User manager](https://exist-db.org/exist/apps/doc/data/security/assets/usermanager.png)
+
+
 
 ## Use the Docker .devcontainer
 
